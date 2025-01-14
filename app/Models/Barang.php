@@ -10,6 +10,6 @@ class Barang extends Model
     use HasFactory;
 
     protected $table = 'barang';
-    protected $guardded = ['id'];
-    public $timestams = false;
+    protected $guarded = ['id'];
+    public $timestamps = false;
 }
